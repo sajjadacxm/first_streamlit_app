@@ -59,15 +59,15 @@ streamlit.dataframe(my_data_rows)
 ## New sectionto display fruityvice api response - Begin
 ## streamlit.header("Fruityvice Fruit Advice!")
 fruit_choice = streamlit.text_input('What fruit would you like to add?','jackfruit')
-streamlit.write('The user entered ', fruit_choice)
+#streamlit.write('The user entered ', fruit_choice)
 
-import requests
-fruityvice_response = requests.get("https://fruityvice.com/api/fruit/" + fruit_choice)
+#import requests
+#fruityvice_response = requests.get("https://fruityvice.com/api/fruit/" + fruit_choice)
 ##streamlit.text(fruityvice_response.json()) # just writes the data to the screen # Removed line
 
 # take the json version of the response and normalize it
-fruityvice_normalized = pandas.json_normalize(fruityvice_response.json())
+#fruityvice_normalized = pandas.json_normalize(fruityvice_response.json())
 # output it the screen as a table
-streamlit.dataframe(fruityvice_normalized)
+#streamlit.dataframe(fruityvice_normalized)
 
 ##New sectionto display fruityvice api response - End
