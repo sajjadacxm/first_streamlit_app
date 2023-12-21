@@ -61,7 +61,7 @@ except URLError as e:
 ##Lesson12 - 12-21-2023 2nd add
 
 # Don't run anything past here while we troubleshoot
-streamlit.stop()
+# streamlit.stop()
 
 ##Lesson12 - 12-21-2023 1st add
 
