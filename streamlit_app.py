@@ -71,3 +71,5 @@ streamlit.write('Thanks for adding ', fruit_choice)
 #streamlit.dataframe(fruityvice_normalized)
 
 ##New sectionto display fruityvice api response - End
+
+my_cur.execute("insert into fruit_load_list values ('from streamlit')")
