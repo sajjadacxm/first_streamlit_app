@@ -50,7 +50,7 @@ streamlit.dataframe(fruityvice_normalized)
 ##Lesson12 - 12-21-2023 2nd add
 
 # Don't run anything past here while we troubleshoot
-steamlit.stop()
+streamlit.stop()
 
 ##Lesson12 - 12-21-2023 1st add
 
